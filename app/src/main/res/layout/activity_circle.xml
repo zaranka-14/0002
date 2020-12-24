@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/figure_name"
+        android:textSize="30dp"
+        android:gravity="center"
+        >
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_X"
+        android:gravity="center"
+        android:hint="Введите координату по оси OX"
+        android:paddingTop="20dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите координату по оси OY"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:id="@+id/edit_Y"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r"
+        android:paddingTop="20dp"
+        android:inputType="number"
+        android:hint="Введите радиус"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sc"
+        android:text="Провести рассчёты"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CirP"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CicS"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/k"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
